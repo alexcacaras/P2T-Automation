@@ -1,0 +1,132 @@
+{
+  "task_num": 2,
+  "function_name": "task2_2_update_logo_theme",
+  "total_code_steps": 31,
+  "code_steps_readable": "1. LOG: [Task 2.2] Using logo file: latest_logo\n2. Click link: \"Navigator\"\n3. Try click: \"Navigator\"\n4. Click title/section: \"Configuration\"\n5. Try click: \"Configuration\"\n6. Click link: \"Sandboxes\"\n7. Try click: \"Sandboxes\"\n8. Click button: \"Create Sandbox\"\n9. Try click: \"Create Sandbox\"\n10. Click textbox: \"Name\"\n11. Fill field with: \"Logo\"\n12. Click button: \"Create and Enter\"\n13. Try click: \"Create and Enter\"\n14. Navigate to page URL\n15. Try click: \"Tools\"\n16. Click button: \"Apply\"\n17. Try click: \"Apply\"\n18. Fill field with: \"Logo\"\n19. Click button: \"OK\"\n20. Try click: \"OK\"\n21. Try click: \"Logo\"\n22. LOG: [Task 2.2] DRY_RUN=True → uploaded os.path.basename(latest_logo)!r and set theme, skipping Publish.\n23. Click button: \"Yes\"\n24. Try click: \"Yes\"\n25. Click button: \"Publish\"\n26. Try click: \"Publish\"\n27. Click button: \"Yes\"\n28. Try click: \"Yes\"\n29. LOG: [Task 2.2] Published sandbox 'Logo' with os.path.basename(latest_logo)!r\n30. Click link: \"Home\"\n31. Try click: \"Home\"",
+  "code_steps_raw": [
+    {
+      "type": "log",
+      "action": "[Task 2.2] Using logo file: latest_logo"
+    },
+    {
+      "type": "click_link",
+      "target": "Navigator"
+    },
+    {
+      "type": "try_click",
+      "target": "Navigator"
+    },
+    {
+      "type": "click_title",
+      "target": "Configuration"
+    },
+    {
+      "type": "try_click",
+      "target": "Configuration"
+    },
+    {
+      "type": "click_link",
+      "target": "Sandboxes"
+    },
+    {
+      "type": "try_click",
+      "target": "Sandboxes"
+    },
+    {
+      "type": "click_button",
+      "target": "Create Sandbox"
+    },
+    {
+      "type": "try_click",
+      "target": "Create Sandbox"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Name"
+    },
+    {
+      "type": "fill",
+      "value": "Logo"
+    },
+    {
+      "type": "click_button",
+      "target": "Create and Enter"
+    },
+    {
+      "type": "try_click",
+      "target": "Create and Enter"
+    },
+    {
+      "type": "navigate",
+      "action": "go to URL"
+    },
+    {
+      "type": "try_click",
+      "target": "Tools"
+    },
+    {
+      "type": "click_button",
+      "target": "Apply"
+    },
+    {
+      "type": "try_click",
+      "target": "Apply"
+    },
+    {
+      "type": "fill",
+      "value": "Logo"
+    },
+    {
+      "type": "click_button",
+      "target": "OK"
+    },
+    {
+      "type": "try_click",
+      "target": "OK"
+    },
+    {
+      "type": "try_click",
+      "target": "Logo"
+    },
+    {
+      "type": "log",
+      "action": "[Task 2.2] DRY_RUN=True → uploaded os.path.basename(latest_logo)!r and set theme, skipping Publish."
+    },
+    {
+      "type": "click_button",
+      "target": "Yes"
+    },
+    {
+      "type": "try_click",
+      "target": "Yes"
+    },
+    {
+      "type": "click_button",
+      "target": "Publish"
+    },
+    {
+      "type": "try_click",
+      "target": "Publish"
+    },
+    {
+      "type": "click_button",
+      "target": "Yes"
+    },
+    {
+      "type": "try_click",
+      "target": "Yes"
+    },
+    {
+      "type": "log",
+      "action": "[Task 2.2] Published sandbox 'Logo' with os.path.basename(latest_logo)!r"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    }
+  ]
+}

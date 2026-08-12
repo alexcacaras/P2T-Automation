@@ -1,0 +1,44 @@
+{
+  "task_num": 22,
+  "function_name": "task22_open_checklist_templates_shared",
+  "total_code_steps": 9,
+  "code_steps_readable": "1. Click link: \"Home\"\n2. Try click: \"Home\"\n3. Click link: \"Settings and Actions\"\n4. Try click: \"Settings and Actions\"\n5. Click link: \"Setup and Maintenance\"\n6. Try click: \"Setup and Maintenance\"\n7. Click link: \"Search\"\n8. Fill field with: \"Checklist Templates\"\n9. Click button: \"Search\"",
+  "code_steps_raw": [
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    },
+    {
+      "type": "click_link",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "try_click",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "click_link",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "try_click",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "fill",
+      "value": "Checklist Templates"
+    },
+    {
+      "type": "click_button",
+      "target": "Search"
+    }
+  ]
+}

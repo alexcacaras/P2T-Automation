@@ -1,0 +1,96 @@
+{
+  "task_num": 2,
+  "function_name": "task2_banner_message",
+  "total_code_steps": 22,
+  "code_steps_readable": "1. Click link: \"Settings and Actions\"\n2. Click link: \"Setup and Maintenance\"\n3. Click link: \"Tasks\"\n4. Click link: \"Search\"\n5. Fill field with: \"Manage Administrator Profile\"\n6. Click button: \"Search\"\n7. Click link: \"Manage Administrator Profile\"\n8. Take screenshot\n9. Click textbox: \"Profile Option Code\"\n10. Fill field with: \"FND_BANNER\"\n11. Click button: \"Search\"\n12. Click button: \"New\"\n13. LOG: [Task 2][Note] 'New' button not found — editing existing value row instead.\n14. Click textbox: \"Profile Value\"\n15. Fill field with: \"banner_text\"\n16. Take screenshot\n17. Click button: \"Cancel\"\n18. LOG: [Task 2] DRY_RUN=True → would set Profile Value to: banner_text!r\n19. Click button: \"Save\"\n20. Click button: \"Save and Close\"\n21. LOG: [Task 2] Banner message set to: banner_text!r\n22. Click link: \"Home\"",
+  "code_steps_raw": [
+    {
+      "type": "click_link",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "click_link",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "click_link",
+      "target": "Tasks"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "fill",
+      "value": "Manage Administrator Profile"
+    },
+    {
+      "type": "click_button",
+      "target": "Search"
+    },
+    {
+      "type": "click_link",
+      "target": "Manage Administrator Profile"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Profile Option Code"
+    },
+    {
+      "type": "fill",
+      "value": "FND_BANNER"
+    },
+    {
+      "type": "click_button",
+      "target": "Search"
+    },
+    {
+      "type": "click_button",
+      "target": "New"
+    },
+    {
+      "type": "log",
+      "action": "[Task 2][Note] 'New' button not found — editing existing value row instead."
+    },
+    {
+      "type": "click_textbox",
+      "target": "Profile Value"
+    },
+    {
+      "type": "fill",
+      "value": "banner_text"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "log",
+      "action": "[Task 2] DRY_RUN=True → would set Profile Value to: banner_text!r"
+    },
+    {
+      "type": "click_button",
+      "target": "Save"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "log",
+      "action": "[Task 2] Banner message set to: banner_text!r"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    }
+  ]
+}

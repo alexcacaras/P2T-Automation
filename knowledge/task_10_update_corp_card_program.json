@@ -1,0 +1,13 @@
+{
+  "task_num": 10,
+  "task_name": "Update Corp Card Program",
+  "code_function": "task10_update_corp_card",
+  "doc_section": "Update Corp Card Program",
+  "steps": "10. Update Corp Card Program to Point to Non-PROD SFTP\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Corporate Card Programs.\nOpen RCSD Corporate Card Program.\nOpen the Transfer Parameters tab.\nLocate the Account Name field.\nAdd XX to the beginning of the Account Name.\nLocate the Profile Name field.\nAdd XX to the beginning of the Profile Name.\nClick Save and Close.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Save",
+    "Save and Close",
+    "Search",
+    "Setup and Maintenance"
+  ]
+}

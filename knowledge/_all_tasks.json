@@ -1,0 +1,239 @@
+[
+  {
+    "task_num": 0,
+    "task_name": "Pretask - Procurement Access Setup",
+    "code_function": "setup_procurement_access_for_user",
+    "doc_section": "Required Roles and Access",
+    "steps": "0. Required Roles and Access Preparation\nProcedure\nOpen Oracle Fusion homepage.\nLocate the Navigator icon with three horizontal lines in the upper-left corner.\nOpen the Navigator menu.\nExpand the Tools section.\nClick Security Console.\nOpen the Users tab near the upper section of the page.\nUse the search field near the top-center area to locate the target user.\nClick the user row from the search results table.\nClick Edit near the upper-right section of the user details page.\nScroll to the Roles section.\nClick Add Role.\nSearch for the required role name.\nSelect the matching role from the role search results.\nRepeat for all required roles.\nClick Save and Close near the upper-right section of the page.\nLog out and log back in to activate role changes.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Navigator",
+      "Save",
+      "Save and Close",
+      "Search",
+      "Security Console"
+    ]
+  },
+  {
+    "task_num": 10,
+    "task_name": "Update Corp Card Program",
+    "code_function": "task10_update_corp_card",
+    "doc_section": "Update Corp Card Program",
+    "steps": "10. Update Corp Card Program to Point to Non-PROD SFTP\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Corporate Card Programs.\nOpen RCSD Corporate Card Program.\nOpen the Transfer Parameters tab.\nLocate the Account Name field.\nAdd XX to the beginning of the Account Name.\nLocate the Profile Name field.\nAdd XX to the beginning of the Profile Name.\nClick Save and Close.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Save",
+      "Save and Close",
+      "Search",
+      "Setup and Maintenance"
+    ]
+  },
+  {
+    "task_num": 11,
+    "task_name": "Disable GetThere Configuration",
+    "code_function": "task11_disable_getthere",
+    "doc_section": "Disable GetThere Configuration",
+    "steps": "11. Disable GetThere Configuration\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Travel Partner Integrations.\nOpen GetThere configuration.\nLocate the Username field in the middle section of the configuration page.\nEnter a random value.\nLocate the Connection Password field below the Username field.\nEnter a random value.\nClick Save and Close near the upper-right section.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Save",
+      "Save and Close",
+      "Search",
+      "Setup and Maintenance"
+    ]
+  },
+  {
+    "task_num": 12,
+    "task_name": "Remove Receivables Emails",
+    "code_function": "task12_remove_receivables_emails",
+    "doc_section": "Remove Receivables System Email",
+    "steps": "12. Remove Receivables System Email Options\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Receivables System Options.\nLocate Transaction Delivery Using Email section.\nClear the From Email field.\nLocate Statement Delivery Using Email section.\nClear the From Email field.\nClick Save and Close.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Deliver",
+      "Save",
+      "Save and Close",
+      "Search",
+      "Setup and Maintenance"
+    ]
+  },
+  {
+    "task_num": 15,
+    "task_name": "Update HireRight Configuration",
+    "code_function": "task15_update_hireright",
+    "doc_section": "Update or Remove HireRight",
+    "steps": "15. Update or Remove HireRight Configuration\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Recruiting Category Provisioning and Configuration.\nLocate HireRight in the integrations table.\nClick the Edit icon beside the HireRight row.\nLocate the Reference Key field.\nSet the value to TORS09-PROD.\nLocate the Client ID field.\nSet the value to TORS09.\nLocate the Client Secret field.\nSet the value to RCSD053124!.\nClick Save and Close.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Save",
+      "Save and Close",
+      "Search",
+      "Setup and Maintenance"
+    ]
+  },
+  {
+    "task_num": 16,
+    "task_name": "PreNote Update SFTP / Disable Delivery",
+    "code_function": "task16_prenote",
+    "doc_section": "Pre-Note",
+    "steps": "16. Pre-Note: Update JPMC SFTP to Non-PROD or Disable Delivery\nProcedure\nNavigate to My Client Groups.\nOpen Data Exchange.\nOpen Extract Definitions.\nEnable Show Filters.\nSearch the required extract definitions under US Legislative Data Group.\nOpen the extract definition.\nIn the left-side navigation panel, click Deliver.\nLocate the prenote delivery option.\nDelete the highlighted prenote delivery entry.\nClick Validate.\nClick Done.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Data Exchange",
+      "Deliver",
+      "Done",
+      "Extract Definitions",
+      "My Client Groups",
+      "Save",
+      "Search",
+      "Show Filters",
+      "Validate",
+      "navigation"
+    ]
+  },
+  {
+    "task_num": 17,
+    "task_name": "Admin User Accounts Creation",
+    "code_function": "task17_admin_users",
+    "doc_section": "ADMIN User Accounts creation",
+    "steps": "17. ADMIN User Accounts Creation\nProcedure\nOpen Navigator.\nExpand Tools.\nClick Security Console.\nOpen Users tab.\nClick Add User Account near the upper-right section.\nEnter Username opkey.bi.admin.\nSet Password to Welcome1.\nClick Add Role.\nAssign required roles.\nClick Save and Close.\nRepeat the process for opkey.sec.admin.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Navigator",
+      "Save",
+      "Save and Close",
+      "Security Console"
+    ]
+  },
+  {
+    "task_num": 18,
+    "task_name": "User Accounts for API (Integration)",
+    "code_function": "task18_tech_user",
+    "doc_section": "User Accounts for API",
+    "steps": "18. User Accounts for API\nProcedure\nOpen Security Console.\nOpen Users tab.\nClick Add User Account.\nCreate the environment-specific API integration user.\nSet Password to Welcome1.\nAssign the required integration-related roles.\nClick Save and Close.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Save",
+      "Save and Close",
+      "Security Console"
+    ]
+  },
+  {
+    "task_num": 1,
+    "task_name": "Disable Notifications",
+    "code_function": "task1_disable_notifications",
+    "doc_section": "Check if Notifications are set to",
+    "steps": "1. Check if Notifications are set to None\nProcedure\nLocate the Notifications icon in the upper-right corner of the Oracle Fusion page.\nClick the Notifications icon.\nClick Show All in the notification popup window.\nThe Worklist page opens.\nClick the logged-in username near the upper-right area of the Worklist page.\nSelect Administration from the dropdown menu.\nScroll downward until the Notifications section becomes visible.\nLocate the Notification Mode dropdown.\nSet Notification Mode to None.\nClick Save near the lower-right section of the page.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Administration",
+      "Save",
+      "Worklist"
+    ]
+  },
+  {
+    "task_num": 21,
+    "task_name": "Disable Separate Remittance Emails",
+    "code_function": "task21_disable_remittance",
+    "doc_section": "Disable Separate Remittance Advice",
+    "steps": "21. Disable Separate Remittance Advice Outgoing Emails\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Disbursement System Options.\nLocate Separate Remittance Advice from Email field.\nRemove the existing email value.\nClick Save and Close.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Save",
+      "Save and Close",
+      "Search",
+      "Setup and Maintenance"
+    ]
+  },
+  {
+    "task_num": 22,
+    "task_name": "Journey Tasks with External URL",
+    "code_function": "task22_update_checklist_urls",
+    "doc_section": "Journeys tasks with external URL",
+    "steps": "22. Journeys Tasks with External URL\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Checklist Templates.\nSearch for Leave of Absence.\nOpen the checklist template.\nClick Tasks.\nFor every task with Task Type equal to External URL, open the task.\nLocate the URL field in the middle section of the task configuration page.\nUpdate the environment-specific portion of the URL.\nKeep the base URL unchanged.\nClick Save and Close.\nRepeat for all external URL tasks.\nRepeat for Medical Leave Journey and Leave Extension templates.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Save",
+      "Save and Close",
+      "Search",
+      "Setup and Maintenance"
+    ]
+  },
+  {
+    "task_num": 23,
+    "task_name": "Workforce Structure Positions",
+    "code_function": "task23_workforce_structure",
+    "doc_section": "Work Force Structure: Positions",
+    "steps": "23. Work Force Structure: Positions\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Extensible Flexfields.\nSearch for PER_POSITIONS_LEG_EFF.\nSelect the result row.\nOpen Actions menu near the upper section of the table.\nClick Refresh and Deploy Offline.\nWait for deployment to complete.\nSearch for PER_POSITIONS_EIT_EFF.\nSelect the result row.\nOpen Actions menu.\nClick Refresh and Deploy Offline.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Save",
+      "Search",
+      "Setup and Maintenance"
+    ]
+  },
+  {
+    "task_num": 2,
+    "task_name": "Banner Message and Color Scheme",
+    "code_function": "task2_banner_message",
+    "doc_section": "Change Color Scheme and Banner Message",
+    "steps": "2. Change Color Scheme and Banner Message Update\nProcedure\nClick the logged-in username in the upper-right corner of Oracle Fusion.\nSelect Setup and Maintenance.\nOpen the Tasks panel near the left section of the page.\nUse the search field to search for Manage Administrator Profile Values.\nOpen the matching task.\nSearch for profile option FND_BANNER_MESSAGE.\nLocate the Profile Values section in the middle of the page.\nClick the New icon above the values table.\nSet Profile Level to Site.\nEnter the environment banner message in the Profile Value text field.\nClick Save and Close near the upper-right area.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Manage Administrator Profile Values",
+      "Save",
+      "Save and Close",
+      "Search",
+      "Setup and Maintenance"
+    ]
+  },
+  {
+    "task_num": 3,
+    "task_name": "Disable ADP Deliveries",
+    "code_function": "task3_disable_adp_deliveries",
+    "doc_section": "Disable or Update ADP",
+    "steps": "3. Disable or Update ADP Integrations to Point to Test Environment\nProcedure\nOpen Navigator from the upper-left corner.\nExpand My Client Groups.\nClick Data Exchange.\nIn the HCM Extracts section located in the center of the page, click Extract Definitions.\nClick Show Filters near the upper-right section.\nSet Legislative Data Group to US Legislative Data Group.\nSearch for Payslip.\nClick the Payslip extract row from the results table.\nIn the left-side navigation panel, click Deliver.\nLocate ADP_SC_GarnOnly_Payslip in the delivery options table.\nOpen the delivery option.\nSet End Date to 01/01/2001.\nClick OK in the lower-right corner of the popup.\nScroll to the Report Categories section.\nExpand Additional Details.\nSelect ADP_SC_GarnOnly_Payslip.\nClick Delete located above or beside the Additional Details table.\nClick Validate in the upper-right toolbar.\nClick Done near the upper-right area.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Additional Details",
+      "Data Exchange",
+      "Deliver",
+      "Done",
+      "Extract Definitions",
+      "My Client Groups",
+      "Navigator",
+      "Report Categories",
+      "Save",
+      "Search",
+      "Show Filters",
+      "Validate",
+      "navigation"
+    ]
+  },
+  {
+    "task_num": 4,
+    "task_name": "Add IP Addresses",
+    "code_function": "task4_add_ip",
+    "doc_section": "Add IP addresses",
+    "steps": "4. Add IP Addresses\nProcedure\nOpen Navigator.\nExpand Tools.\nClick Security Console.\nOpen the Administration tab near the upper section of the page.\nOpen Location Based Access.\nLocate the IP Address entry field in the middle section of the page.\nAdd the required IP addresses separated by commas.\nClick outside the field so the Save button becomes enabled.\nClick Save near the upper-right section.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Administration",
+      "Navigator",
+      "Save",
+      "Security Console"
+    ]
+  },
+  {
+    "task_num": 7,
+    "task_name": "Turn Off PO Communication",
+    "code_function": "task7_turn_off_po_communication",
+    "doc_section": "Turn off PO Communication",
+    "steps": "7. Turn off PO Communication\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Administrator Profile Values.\nSearch for PO_NOTIFICATION_OVERRIDE_E-MAIL.\nSet the profile value to a dummy email address.\nClick Save.\nSearch for PO_CONTROL_SUPPLIER_COMMUNICATION.\nSet the profile value to Disable.\nClick Save.\nSearch for PO_FROM_EMAIL_ADDRESS.\nSet the profile value to Buyer.\nClick Save.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Manage Administrator Profile Values",
+      "Save",
+      "Search",
+      "Setup and Maintenance"
+    ]
+  },
+  {
+    "task_num": 9,
+    "task_name": "Disable AP Payment Transmission",
+    "code_function": "task9_disable_ap_payment",
+    "doc_section": "Disabling AP Payment Transmission",
+    "steps": "9. Disabling AP Payment Transmission to the Bank\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Payment Process Profiles.\nOpen each highlighted payment process profile one at a time.\nOpen the Payment System tab.\nLocate the Automatically Transmit Payment File After Formatting checkbox in the middle section.\nUncheck the checkbox.\nOpen the Reporting tab.\nLocate Separate Remittance Advice settings.\nEnsure Delivery Method is blank.\nClick Save and Close near the upper-right section.\nRepeat for all highlighted payment process profiles.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+    "expected_elements": [
+      "Deliver",
+      "Save",
+      "Save and Close",
+      "Search",
+      "Setup and Maintenance"
+    ]
+  }
+]

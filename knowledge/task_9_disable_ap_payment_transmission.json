@@ -1,0 +1,14 @@
+{
+  "task_num": 9,
+  "task_name": "Disable AP Payment Transmission",
+  "code_function": "task9_disable_ap_payment",
+  "doc_section": "Disabling AP Payment Transmission",
+  "steps": "9. Disabling AP Payment Transmission to the Bank\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Payment Process Profiles.\nOpen each highlighted payment process profile one at a time.\nOpen the Payment System tab.\nLocate the Automatically Transmit Payment File After Formatting checkbox in the middle section.\nUncheck the checkbox.\nOpen the Reporting tab.\nLocate Separate Remittance Advice settings.\nEnsure Delivery Method is blank.\nClick Save and Close near the upper-right section.\nRepeat for all highlighted payment process profiles.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Deliver",
+    "Save",
+    "Save and Close",
+    "Search",
+    "Setup and Maintenance"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_num": 1,
+  "function_name": "task1_disable_notifications",
+  "total_code_steps": 5,
+  "code_steps_readable": "1. Take screenshot\n2. LOG: [Task 1] Dry run: skipped Save\n3. Click link: \"Home\"\n4. Try click: \"Home\"\n5. LOG: [Task 1] Notifications set to None (value=1). DRY_RUN=DRY_RUN",
+  "code_steps_raw": [
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "log",
+      "action": "[Task 1] Dry run: skipped Save"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    },
+    {
+      "type": "log",
+      "action": "[Task 1] Notifications set to None (value=1). DRY_RUN=DRY_RUN"
+    }
+  ]
+}

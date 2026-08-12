@@ -1,0 +1,13 @@
+{
+  "task_num": 22,
+  "task_name": "Journey Tasks with External URL",
+  "code_function": "task22_update_checklist_urls",
+  "doc_section": "Journeys tasks with external URL",
+  "steps": "22. Journeys Tasks with External URL\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Checklist Templates.\nSearch for Leave of Absence.\nOpen the checklist template.\nClick Tasks.\nFor every task with Task Type equal to External URL, open the task.\nLocate the URL field in the middle section of the task configuration page.\nUpdate the environment-specific portion of the URL.\nKeep the base URL unchanged.\nClick Save and Close.\nRepeat for all external URL tasks.\nRepeat for Medical Leave Journey and Leave Extension templates.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Save",
+    "Save and Close",
+    "Search",
+    "Setup and Maintenance"
+  ]
+}

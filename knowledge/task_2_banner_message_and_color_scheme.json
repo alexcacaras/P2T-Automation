@@ -1,0 +1,14 @@
+{
+  "task_num": 2,
+  "task_name": "Banner Message and Color Scheme",
+  "code_function": "task2_banner_message",
+  "doc_section": "Change Color Scheme and Banner Message",
+  "steps": "2. Change Color Scheme and Banner Message Update\nProcedure\nClick the logged-in username in the upper-right corner of Oracle Fusion.\nSelect Setup and Maintenance.\nOpen the Tasks panel near the left section of the page.\nUse the search field to search for Manage Administrator Profile Values.\nOpen the matching task.\nSearch for profile option FND_BANNER_MESSAGE.\nLocate the Profile Values section in the middle of the page.\nClick the New icon above the values table.\nSet Profile Level to Site.\nEnter the environment banner message in the Profile Value text field.\nClick Save and Close near the upper-right area.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Manage Administrator Profile Values",
+    "Save",
+    "Save and Close",
+    "Search",
+    "Setup and Maintenance"
+  ]
+}

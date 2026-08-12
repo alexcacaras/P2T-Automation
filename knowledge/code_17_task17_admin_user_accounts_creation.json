@@ -1,0 +1,284 @@
+{
+  "task_num": 17,
+  "function_name": "task17_admin_user_accounts_creation",
+  "total_code_steps": 69,
+  "code_steps_readable": "1. Click link: \"Navigator\"\n2. Click link: \"Security Console\"\n3. Try click: \"Security Console\"\n4. Click title/section: \"Tools\"\n5. Try click: \"Tools\"\n6. Click link: \"Security Console\"\n7. Click title/section: \"Users\"\n8. Try click: \"Users\"\n9. Click link: \"Users\"\n10. Try click: \"Users\"\n11. Click link: \"Users Users\"\n12. Try click: \"Users Users\"\n13. Click button: \"Add User Account\"\n14. Click textbox: \"First Name\"\n15. Fill field with: \"OPKey User\"\n16. Click textbox: \"First Name\"\n17. Click textbox: \"Last Name\"\n18. Fill field with: \"BI Administrator\"\n19. Click textbox: \"Last Name\"\n20. Click textbox: \"Email\"\n21. Fill field with: \"opkey.bi.admin@demo.com\"\n22. Click textbox: \"Email\"\n23. Click textbox: \"User Name\"\n24. Fill field with: \"opkey.bi.admin\"\n25. Click textbox: \"User Name\"\n26. Click textbox: \"Password\"\n27. Fill field with: \"Welcome1\"\n28. Click textbox: \"Password\"\n29. Click textbox: \"Confirm Password\"\n30. Fill field with: \"Welcome1\"\n31. Click textbox: \"Confirm Password\"\n32. Take screenshot\n33. Click button: \"Add Role\"\n34. Fill field with: \"RCSD-BPR BI Administrator\"\n35. Click link: \"Search\"\n36. Click button: \"Add Role Membership\"\n37. Take screenshot\n38. Click button: \"Done\"\n39. Click button: \"Save and Close\"\n40. Click button: \"Cancel\"\n41. Click button: \"Add User Account\"\n42. Click textbox: \"First Name\"\n43. Fill field with: \"Opkey User\"\n44. Click textbox: \"First Name\"\n45. Click textbox: \"Last Name\"\n46. Fill field with: \"Sec Administrator\"\n47. Click textbox: \"Last Name\"\n48. Click textbox: \"Email\"\n49. Fill field with: \"opkey.sec.admin@demo.com\"\n50. Click textbox: \"Email\"\n51. Click textbox: \"User Name\"\n52. Fill field with: \"opkey.sec.admin\"\n53. Click textbox: \"User Name\"\n54. Click textbox: \"Password\"\n55. Fill field with: \"Welcome1\"\n56. Click textbox: \"Password\"\n57. Click textbox: \"Confirm Password\"\n58. Fill field with: \"Welcome1\"\n59. Click textbox: \"Confirm Password\"\n60. Take screenshot\n61. Click button: \"Add Role\"\n62. Fill field with: \"IT Security Manager\"\n63. Click link: \"Search\"\n64. Click button: \"Add Role Membership\"\n65. Take screenshot\n66. Click button: \"Done\"\n67. Click button: \"Save and Close\"\n68. Click button: \"Cancel\"\n69. LOG: [Task 17] Admin user accounts creation complete. DRY_RUN=DRY_RUN",
+  "code_steps_raw": [
+    {
+      "type": "click_link",
+      "target": "Navigator"
+    },
+    {
+      "type": "click_link",
+      "target": "Security Console"
+    },
+    {
+      "type": "try_click",
+      "target": "Security Console"
+    },
+    {
+      "type": "click_title",
+      "target": "Tools"
+    },
+    {
+      "type": "try_click",
+      "target": "Tools"
+    },
+    {
+      "type": "click_link",
+      "target": "Security Console"
+    },
+    {
+      "type": "click_title",
+      "target": "Users"
+    },
+    {
+      "type": "try_click",
+      "target": "Users"
+    },
+    {
+      "type": "click_link",
+      "target": "Users"
+    },
+    {
+      "type": "try_click",
+      "target": "Users"
+    },
+    {
+      "type": "click_link",
+      "target": "Users Users"
+    },
+    {
+      "type": "try_click",
+      "target": "Users Users"
+    },
+    {
+      "type": "click_button",
+      "target": "Add User Account"
+    },
+    {
+      "type": "click_textbox",
+      "target": "First Name"
+    },
+    {
+      "type": "fill",
+      "value": "OPKey User"
+    },
+    {
+      "type": "click_textbox",
+      "target": "First Name"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Last Name"
+    },
+    {
+      "type": "fill",
+      "value": "BI Administrator"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Last Name"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Email"
+    },
+    {
+      "type": "fill",
+      "value": "opkey.bi.admin@demo.com"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Email"
+    },
+    {
+      "type": "click_textbox",
+      "target": "User Name"
+    },
+    {
+      "type": "fill",
+      "value": "opkey.bi.admin"
+    },
+    {
+      "type": "click_textbox",
+      "target": "User Name"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Password"
+    },
+    {
+      "type": "fill",
+      "value": "Welcome1"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Password"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Confirm Password"
+    },
+    {
+      "type": "fill",
+      "value": "Welcome1"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Confirm Password"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Add Role"
+    },
+    {
+      "type": "fill",
+      "value": "RCSD-BPR BI Administrator"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "click_button",
+      "target": "Add Role Membership"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Done"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_button",
+      "target": "Add User Account"
+    },
+    {
+      "type": "click_textbox",
+      "target": "First Name"
+    },
+    {
+      "type": "fill",
+      "value": "Opkey User"
+    },
+    {
+      "type": "click_textbox",
+      "target": "First Name"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Last Name"
+    },
+    {
+      "type": "fill",
+      "value": "Sec Administrator"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Last Name"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Email"
+    },
+    {
+      "type": "fill",
+      "value": "opkey.sec.admin@demo.com"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Email"
+    },
+    {
+      "type": "click_textbox",
+      "target": "User Name"
+    },
+    {
+      "type": "fill",
+      "value": "opkey.sec.admin"
+    },
+    {
+      "type": "click_textbox",
+      "target": "User Name"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Password"
+    },
+    {
+      "type": "fill",
+      "value": "Welcome1"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Password"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Confirm Password"
+    },
+    {
+      "type": "fill",
+      "value": "Welcome1"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Confirm Password"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Add Role"
+    },
+    {
+      "type": "fill",
+      "value": "IT Security Manager"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "click_button",
+      "target": "Add Role Membership"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Done"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "log",
+      "action": "[Task 17] Admin user accounts creation complete. DRY_RUN=DRY_RUN"
+    }
+  ]
+}

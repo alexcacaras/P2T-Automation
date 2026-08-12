@@ -1,0 +1,152 @@
+{
+  "task_num": 16,
+  "function_name": "task16_prenote_update_sftp_or_disable_delivery",
+  "total_code_steps": 36,
+  "code_steps_readable": "1. Click link: \"Home\"\n2. Try click: \"Home\"\n3. Click link: \"Data Exchange\"\n4. Try click: \"Data Exchange\"\n5. Click title/section: \"My Client Groups\"\n6. Try click: \"My Client Groups\"\n7. Click link: \"Data Exchange\"\n8. Try click: \"Data Exchange\"\n9. Click link: \"Extract Definitions\"\n10. Try click: \"Extract Definitions\"\n11. Click textbox: \"Name\"\n12. Fill field with: \"Generate Prenote File\"\n13. Try click: \"Legislative Data Group\"\n14. Try click: \"US Legislative Data Group\"\n15. Click button: \"Search\"\n16. Try click: \"Search\"\n17. Click link: \"Generate Prenote File\"\n18. Try click: \"Generate Prenote File\"\n19. LOG: [Task 16] Processing: 'delivery_name'\n20. LOG: [Task 16] DRY_RUN=True → would delete: delivery_name\n21. LOG: [Task 16] RETRY: 'delivery_name' already deleted, skipping\n22. LOG: [Task 16] Found target.count() cell(s) containing 'delivery_name'\n23. LOG: [Task 16] Clicking last cell (Additional Details row)...\n24. LOG: [Task 16] Waiting for Oracle to enable Delete button...\n25. LOG: [Task 16] Method 1 failed: e\n26. LOG: [Task 16] Trying fallback method...\n27. LOG: [Task 16] (Fallback) Waiting for Oracle to enable Delete button...\n28. LOG: [Task 16] Fallback failed: e\n29. LOG: [Task 16]  WARNING: Could not find row for 'delivery_name'\n30. LOG: [Task 16] Found delete_btns.count() Delete buttons\n31. Take screenshot\n32. LOG: [Task 16]  Successfully deleted 'delivery_name'\n33. LOG: [Task 16] Saving changes...\n34. LOG: [Task 16] Clicking Done...\n35. LOG: [Task 16]  Prenote deliveries deleted and saved!\n36. LOG: [Task 16]  ERROR: Failed to delete 'delivery_name': e",
+  "code_steps_raw": [
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    },
+    {
+      "type": "click_link",
+      "target": "Data Exchange"
+    },
+    {
+      "type": "try_click",
+      "target": "Data Exchange"
+    },
+    {
+      "type": "click_title",
+      "target": "My Client Groups"
+    },
+    {
+      "type": "try_click",
+      "target": "My Client Groups"
+    },
+    {
+      "type": "click_link",
+      "target": "Data Exchange"
+    },
+    {
+      "type": "try_click",
+      "target": "Data Exchange"
+    },
+    {
+      "type": "click_link",
+      "target": "Extract Definitions"
+    },
+    {
+      "type": "try_click",
+      "target": "Extract Definitions"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Name"
+    },
+    {
+      "type": "fill",
+      "value": "Generate Prenote File"
+    },
+    {
+      "type": "try_click",
+      "target": "Legislative Data Group"
+    },
+    {
+      "type": "try_click",
+      "target": "US Legislative Data Group"
+    },
+    {
+      "type": "click_button",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "click_link",
+      "target": "Generate Prenote File"
+    },
+    {
+      "type": "try_click",
+      "target": "Generate Prenote File"
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] Processing: 'delivery_name'"
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] DRY_RUN=True → would delete: delivery_name"
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] RETRY: 'delivery_name' already deleted, skipping"
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] Found target.count() cell(s) containing 'delivery_name'"
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] Clicking last cell (Additional Details row)..."
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] Waiting for Oracle to enable Delete button..."
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] Method 1 failed: e"
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] Trying fallback method..."
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] (Fallback) Waiting for Oracle to enable Delete button..."
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] Fallback failed: e"
+    },
+    {
+      "type": "log",
+      "action": "[Task 16]  WARNING: Could not find row for 'delivery_name'"
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] Found delete_btns.count() Delete buttons"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "log",
+      "action": "[Task 16]  Successfully deleted 'delivery_name'"
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] Saving changes..."
+    },
+    {
+      "type": "log",
+      "action": "[Task 16] Clicking Done..."
+    },
+    {
+      "type": "log",
+      "action": "[Task 16]  Prenote deliveries deleted and saved!"
+    },
+    {
+      "type": "log",
+      "action": "[Task 16]  ERROR: Failed to delete 'delivery_name': e"
+    }
+  ]
+}

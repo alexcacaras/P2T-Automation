@@ -1,0 +1,44 @@
+{
+  "task_num": 22,
+  "function_name": "task22_update_checklist_urls_redwood",
+  "total_code_steps": 9,
+  "code_steps_readable": "1. Fill field with: \"value, timeout=timeout\"\n2. Navigate to page URL\n3. Take screenshot\n4. LOG: [Task 22 Redwood] DRY RUN - would Save URL: full_url\n5. LOG: [Task 22 Redwood] Opening journey: journey_name\n6. LOG: [Task 22 Redwood] Editing task: journey_name -> task_name\n7. Take screenshot\n8. LOG: [Task 22 Redwood] Finished journey: journey_name - going back for next journey\n9. LOG: [Task 22 Redwood] Checklist URLs updated. DRY_RUN=DRY_RUN",
+  "code_steps_raw": [
+    {
+      "type": "fill",
+      "value": "value, timeout=timeout"
+    },
+    {
+      "type": "navigate",
+      "action": "go to URL"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "log",
+      "action": "[Task 22 Redwood] DRY RUN - would Save URL: full_url"
+    },
+    {
+      "type": "log",
+      "action": "[Task 22 Redwood] Opening journey: journey_name"
+    },
+    {
+      "type": "log",
+      "action": "[Task 22 Redwood] Editing task: journey_name -> task_name"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "log",
+      "action": "[Task 22 Redwood] Finished journey: journey_name - going back for next journey"
+    },
+    {
+      "type": "log",
+      "action": "[Task 22 Redwood] Checklist URLs updated. DRY_RUN=DRY_RUN"
+    }
+  ]
+}

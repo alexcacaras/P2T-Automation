@@ -1,0 +1,13 @@
+{
+  "task_num": 21,
+  "task_name": "Disable Separate Remittance Emails",
+  "code_function": "task21_disable_remittance",
+  "doc_section": "Disable Separate Remittance Advice",
+  "steps": "21. Disable Separate Remittance Advice Outgoing Emails\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Disbursement System Options.\nLocate Separate Remittance Advice from Email field.\nRemove the existing email value.\nClick Save and Close.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Save",
+    "Save and Close",
+    "Search",
+    "Setup and Maintenance"
+  ]
+}

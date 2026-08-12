@@ -1,0 +1,19 @@
+{
+  "task_num": 16,
+  "task_name": "PreNote Update SFTP / Disable Delivery",
+  "code_function": "task16_prenote",
+  "doc_section": "Pre-Note",
+  "steps": "16. Pre-Note: Update JPMC SFTP to Non-PROD or Disable Delivery\nProcedure\nNavigate to My Client Groups.\nOpen Data Exchange.\nOpen Extract Definitions.\nEnable Show Filters.\nSearch the required extract definitions under US Legislative Data Group.\nOpen the extract definition.\nIn the left-side navigation panel, click Deliver.\nLocate the prenote delivery option.\nDelete the highlighted prenote delivery entry.\nClick Validate.\nClick Done.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Data Exchange",
+    "Deliver",
+    "Done",
+    "Extract Definitions",
+    "My Client Groups",
+    "Save",
+    "Search",
+    "Show Filters",
+    "Validate",
+    "navigation"
+  ]
+}

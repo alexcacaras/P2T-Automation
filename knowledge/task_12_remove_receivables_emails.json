@@ -1,0 +1,14 @@
+{
+  "task_num": 12,
+  "task_name": "Remove Receivables Emails",
+  "code_function": "task12_remove_receivables_emails",
+  "doc_section": "Remove Receivables System Email",
+  "steps": "12. Remove Receivables System Email Options\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Receivables System Options.\nLocate Transaction Delivery Using Email section.\nClear the From Email field.\nLocate Statement Delivery Using Email section.\nClear the From Email field.\nClick Save and Close.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Deliver",
+    "Save",
+    "Save and Close",
+    "Search",
+    "Setup and Maintenance"
+  ]
+}

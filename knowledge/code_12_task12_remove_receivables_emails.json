@@ -1,0 +1,92 @@
+{
+  "task_num": 12,
+  "function_name": "task12_remove_receivables_emails",
+  "total_code_steps": 21,
+  "code_steps_readable": "1. Click link: \"Settings and Actions\"\n2. Try click: \"Settings and Actions\"\n3. Click link: \"Setup and Maintenance\"\n4. Try click: \"Setup and Maintenance\"\n5. Click link: \"Tasks\"\n6. Try click: \"Tasks\"\n7. Click link: \"Search\"\n8. Try click: \"Search\"\n9. Fill field with: \"Manage Receivables System\"\n10. Click button: \"Search\"\n11. Try click: \"Search\"\n12. Click link: \"Manage Receivables System\"\n13. Try click: \"Manage Receivables System\"\n14. Take screenshot\n15. Click button: \"Save and Close\"\n16. Try click: \"Save and Close\"\n17. Click button: \"Cancel\"\n18. Try click: \"Cancel\"\n19. Click link: \"Home\"\n20. Try click: \"Home\"\n21. LOG: [Task 12] Receivables System email 'from' fields cleared. DRY_RUN=DRY_RUN",
+  "code_steps_raw": [
+    {
+      "type": "click_link",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "try_click",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "click_link",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "try_click",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "click_link",
+      "target": "Tasks"
+    },
+    {
+      "type": "try_click",
+      "target": "Tasks"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "fill",
+      "value": "Manage Receivables System"
+    },
+    {
+      "type": "click_button",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "click_link",
+      "target": "Manage Receivables System"
+    },
+    {
+      "type": "try_click",
+      "target": "Manage Receivables System"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "try_click",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    },
+    {
+      "type": "log",
+      "action": "[Task 12] Receivables System email 'from' fields cleared. DRY_RUN=DRY_RUN"
+    }
+  ]
+}

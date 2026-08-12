@@ -1,0 +1,13 @@
+{
+  "task_num": 17,
+  "task_name": "Admin User Accounts Creation",
+  "code_function": "task17_admin_users",
+  "doc_section": "ADMIN User Accounts creation",
+  "steps": "17. ADMIN User Accounts Creation\nProcedure\nOpen Navigator.\nExpand Tools.\nClick Security Console.\nOpen Users tab.\nClick Add User Account near the upper-right section.\nEnter Username opkey.bi.admin.\nSet Password to Welcome1.\nClick Add Role.\nAssign required roles.\nClick Save and Close.\nRepeat the process for opkey.sec.admin.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Navigator",
+    "Save",
+    "Save and Close",
+    "Security Console"
+  ]
+}

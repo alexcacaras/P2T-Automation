@@ -1,0 +1,104 @@
+{
+  "task_num": 10,
+  "function_name": "task10_update_corp_card_program_to_nonprod_sftp",
+  "total_code_steps": 24,
+  "code_steps_readable": "1. Fill field with: \"Manage Corporate Card Programs\"\n2. Click link: \"Manage Corporate Card Programs\"\n3. Try click: \"Manage Corporate Card Programs\"\n4. Click link: \"RCSD Corporate Card Program\"\n5. Try click: \"RCSD Corporate Card Program\"\n6. Click textbox: \"Download Profile Name\"\n7. Fill field with: \"new_download_profile_name\"\n8. Click textbox: \"Account Name\"\n9. Fill field with: \"new_account_name\"\n10. Fill field with: \"new_download_profile_name\"\n11. Take screenshot\n12. Click button: \"Save\"\n13. Try click: \"Save\"\n14. Click button: \"Save and Close\"\n15. Try click: \"Save and Close\"\n16. Click button: \"Save and Close\"\n17. Try click: \"Save and Close\"\n18. Click button: \"Cancel\"\n19. Try click: \"Cancel\"\n20. Click button: \"Cancel\"\n21. Try click: \"Cancel\"\n22. Click button: \"Done\"\n23. Try click: \"Done\"\n24. LOG: [Task 10] Updated Corp Card profile ",
+  "code_steps_raw": [
+    {
+      "type": "fill",
+      "value": "Manage Corporate Card Programs"
+    },
+    {
+      "type": "click_link",
+      "target": "Manage Corporate Card Programs"
+    },
+    {
+      "type": "try_click",
+      "target": "Manage Corporate Card Programs"
+    },
+    {
+      "type": "click_link",
+      "target": "RCSD Corporate Card Program"
+    },
+    {
+      "type": "try_click",
+      "target": "RCSD Corporate Card Program"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Download Profile Name"
+    },
+    {
+      "type": "fill",
+      "value": "new_download_profile_name"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Account Name"
+    },
+    {
+      "type": "fill",
+      "value": "new_account_name"
+    },
+    {
+      "type": "fill",
+      "value": "new_download_profile_name"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Save"
+    },
+    {
+      "type": "try_click",
+      "target": "Save"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "try_click",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "try_click",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_button",
+      "target": "Done"
+    },
+    {
+      "type": "try_click",
+      "target": "Done"
+    },
+    {
+      "type": "log",
+      "action": "[Task 10] Updated Corp Card profile "
+    }
+  ]
+}

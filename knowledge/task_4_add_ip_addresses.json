@@ -1,0 +1,13 @@
+{
+  "task_num": 4,
+  "task_name": "Add IP Addresses",
+  "code_function": "task4_add_ip",
+  "doc_section": "Add IP addresses",
+  "steps": "4. Add IP Addresses\nProcedure\nOpen Navigator.\nExpand Tools.\nClick Security Console.\nOpen the Administration tab near the upper section of the page.\nOpen Location Based Access.\nLocate the IP Address entry field in the middle section of the page.\nAdd the required IP addresses separated by commas.\nClick outside the field so the Save button becomes enabled.\nClick Save near the upper-right section.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Administration",
+    "Navigator",
+    "Save",
+    "Security Console"
+  ]
+}

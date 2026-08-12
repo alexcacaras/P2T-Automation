@@ -1,0 +1,12 @@
+{
+  "task_num": 23,
+  "task_name": "Workforce Structure Positions",
+  "code_function": "task23_workforce_structure",
+  "doc_section": "Work Force Structure: Positions",
+  "steps": "23. Work Force Structure: Positions\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Extensible Flexfields.\nSearch for PER_POSITIONS_LEG_EFF.\nSelect the result row.\nOpen Actions menu near the upper section of the table.\nClick Refresh and Deploy Offline.\nWait for deployment to complete.\nSearch for PER_POSITIONS_EIT_EFF.\nSelect the result row.\nOpen Actions menu.\nClick Refresh and Deploy Offline.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Save",
+    "Search",
+    "Setup and Maintenance"
+  ]
+}

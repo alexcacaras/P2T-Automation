@@ -1,0 +1,13 @@
+{
+  "task_num": 15,
+  "task_name": "Update HireRight Configuration",
+  "code_function": "task15_update_hireright",
+  "doc_section": "Update or Remove HireRight",
+  "steps": "15. Update or Remove HireRight Configuration\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Recruiting Category Provisioning and Configuration.\nLocate HireRight in the integrations table.\nClick the Edit icon beside the HireRight row.\nLocate the Reference Key field.\nSet the value to TORS09-PROD.\nLocate the Client ID field.\nSet the value to TORS09.\nLocate the Client Secret field.\nSet the value to RCSD053124!.\nClick Save and Close.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Save",
+    "Save and Close",
+    "Search",
+    "Setup and Maintenance"
+  ]
+}

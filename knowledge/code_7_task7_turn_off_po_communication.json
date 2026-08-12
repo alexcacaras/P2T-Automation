@@ -1,0 +1,132 @@
+{
+  "task_num": 7,
+  "function_name": "task7_turn_off_po_communication",
+  "total_code_steps": 31,
+  "code_steps_readable": "1. Click link: \"Settings and Actions\"\n2. Try click: \"Settings and Actions\"\n3. Click link: \"Setup and Maintenance\"\n4. Try click: \"Setup and Maintenance\"\n5. Click link: \"Tasks\"\n6. Try click: \"Tasks\"\n7. Click link: \"Search\"\n8. Try click: \"Search\"\n9. Fill field with: \"Manage Administrator Profile\"\n10. Click button: \"Search\"\n11. Try click: \"Search\"\n12. Click link: \"Manage Administrator Profile\"\n13. Try click: \"Manage Administrator Profile\"\n14. Click button: \"Save and Close\"\n15. Try click: \"Save and Close\"\n16. Click button: \"OK\"\n17. Try click: \"OK\"\n18. Click textbox: \"Profile Option Code\"\n19. Fill field with: \"profile_code\"\n20. Click textbox: \"Profile Value\"\n21. Fill field with: \"value\"\n22. Take screenshot\n23. Click button: \"Save and Close\"\n24. Try click: \"Save and Close\"\n25. Click button: \"OK\"\n26. Try click: \"OK\"\n27. Click button: \"Cancel\"\n28. Try click: \"Cancel\"\n29. Click link: \"Home\"\n30. Try click: \"Home\"\n31. LOG: [Task 7] PO Communication updated (+save after each). DRY_RUN=DRY_RUN",
+  "code_steps_raw": [
+    {
+      "type": "click_link",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "try_click",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "click_link",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "try_click",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "click_link",
+      "target": "Tasks"
+    },
+    {
+      "type": "try_click",
+      "target": "Tasks"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "fill",
+      "value": "Manage Administrator Profile"
+    },
+    {
+      "type": "click_button",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "click_link",
+      "target": "Manage Administrator Profile"
+    },
+    {
+      "type": "try_click",
+      "target": "Manage Administrator Profile"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "OK"
+    },
+    {
+      "type": "try_click",
+      "target": "OK"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Profile Option Code"
+    },
+    {
+      "type": "fill",
+      "value": "profile_code"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Profile Value"
+    },
+    {
+      "type": "fill",
+      "value": "value"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "OK"
+    },
+    {
+      "type": "try_click",
+      "target": "OK"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "try_click",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    },
+    {
+      "type": "log",
+      "action": "[Task 7] PO Communication updated (+save after each). DRY_RUN=DRY_RUN"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "task_num": 1,
+  "task_name": "Disable Notifications",
+  "code_function": "task1_disable_notifications",
+  "doc_section": "Check if Notifications are set to",
+  "steps": "1. Check if Notifications are set to None\nProcedure\nLocate the Notifications icon in the upper-right corner of the Oracle Fusion page.\nClick the Notifications icon.\nClick Show All in the notification popup window.\nThe Worklist page opens.\nClick the logged-in username near the upper-right area of the Worklist page.\nSelect Administration from the dropdown menu.\nScroll downward until the Notifications section becomes visible.\nLocate the Notification Mode dropdown.\nSet Notification Mode to None.\nClick Save near the lower-right section of the page.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Administration",
+    "Save",
+    "Worklist"
+  ]
+}

@@ -1,0 +1,9 @@
+playwright 
+requests 
+python-dotenv
+openpyxl 
+pandas 
+urllib3 
+python-dateutil 
+flask flask-cors
+python -m playwright install chromium

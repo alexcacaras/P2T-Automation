@@ -1,0 +1,148 @@
+{
+  "task_num": 20,
+  "function_name": "task20_update_preferred_gender_links",
+  "total_code_steps": 35,
+  "code_steps_readable": "1. Click textbox: \"Destination\"\n2. Fill field with: \"full_url\"\n3. Click button: \"Save and Close\"\n4. LOG: [Task 20] DRY RUN - would Save and Close with Destination=full_url!r\n5. Navigate to page URL\n6. Click link: \"Home\"\n7. Try click: \"Home\"\n8. Click link: \"Navigator\"\n9. Try click: \"Navigator\"\n10. Click title/section: \"Tools\"\n11. Try click: \"Tools\"\n12. Click title/section: \"My Client Groups\"\n13. Try click: \"My Client Groups\"\n14. Click title/section: \"Configuration\"\n15. Try click: \"Configuration\"\n16. Click link: \"Sandboxes\"\n17. Try click: \"Sandboxes\"\n18. Click button: \"Create Sandbox\"\n19. Try click: \"Create Sandbox\"\n20. Click textbox: \"Name\"\n21. Fill field with: \"sandbox_name\"\n22. LOG: [Task 20] DRY RUN - would click 'Create and Enter' for sandbox sandbox_name!r\n23. Click button: \"Create and Enter\"\n24. Navigate to page URL\n25. Try click: \"Tools\"\n26. Click link: \"Expand Me\"\n27. Click link: \"Preferred Gender\"\n28. Click link: \"Request for Absence\"\n29. Click link: \"Resignation / Retirement\"\n30. LOG: [Task 20] DRY RUN - would publish sandbox sandbox_name!r\n31. Click button: \"Yes\"\n32. Click button: \"Publish\"\n33. Click button: \"Yes\"\n34. Click link: \"Home\"\n35. LOG: [Task 20] Preferred Gender / Absence / Resignation links updated. DRY_RUN=DRY_RUN",
+  "code_steps_raw": [
+    {
+      "type": "click_textbox",
+      "target": "Destination"
+    },
+    {
+      "type": "fill",
+      "value": "full_url"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "log",
+      "action": "[Task 20] DRY RUN - would Save and Close with Destination=full_url!r"
+    },
+    {
+      "type": "navigate",
+      "action": "go to URL"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    },
+    {
+      "type": "click_link",
+      "target": "Navigator"
+    },
+    {
+      "type": "try_click",
+      "target": "Navigator"
+    },
+    {
+      "type": "click_title",
+      "target": "Tools"
+    },
+    {
+      "type": "try_click",
+      "target": "Tools"
+    },
+    {
+      "type": "click_title",
+      "target": "My Client Groups"
+    },
+    {
+      "type": "try_click",
+      "target": "My Client Groups"
+    },
+    {
+      "type": "click_title",
+      "target": "Configuration"
+    },
+    {
+      "type": "try_click",
+      "target": "Configuration"
+    },
+    {
+      "type": "click_link",
+      "target": "Sandboxes"
+    },
+    {
+      "type": "try_click",
+      "target": "Sandboxes"
+    },
+    {
+      "type": "click_button",
+      "target": "Create Sandbox"
+    },
+    {
+      "type": "try_click",
+      "target": "Create Sandbox"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Name"
+    },
+    {
+      "type": "fill",
+      "value": "sandbox_name"
+    },
+    {
+      "type": "log",
+      "action": "[Task 20] DRY RUN - would click 'Create and Enter' for sandbox sandbox_name!r"
+    },
+    {
+      "type": "click_button",
+      "target": "Create and Enter"
+    },
+    {
+      "type": "navigate",
+      "action": "go to URL"
+    },
+    {
+      "type": "try_click",
+      "target": "Tools"
+    },
+    {
+      "type": "click_link",
+      "target": "Expand Me"
+    },
+    {
+      "type": "click_link",
+      "target": "Preferred Gender"
+    },
+    {
+      "type": "click_link",
+      "target": "Request for Absence"
+    },
+    {
+      "type": "click_link",
+      "target": "Resignation / Retirement"
+    },
+    {
+      "type": "log",
+      "action": "[Task 20] DRY RUN - would publish sandbox sandbox_name!r"
+    },
+    {
+      "type": "click_button",
+      "target": "Yes"
+    },
+    {
+      "type": "click_button",
+      "target": "Publish"
+    },
+    {
+      "type": "click_button",
+      "target": "Yes"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "log",
+      "action": "[Task 20] Preferred Gender / Absence / Resignation links updated. DRY_RUN=DRY_RUN"
+    }
+  ]
+}

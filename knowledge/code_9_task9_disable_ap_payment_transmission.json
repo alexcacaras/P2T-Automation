@@ -1,0 +1,200 @@
+{
+  "task_num": 9,
+  "function_name": "task9_disable_ap_payment_transmission",
+  "total_code_steps": 48,
+  "code_steps_readable": "1. Click button: \"Save and Close\"\n2. Try click: \"Save and Close\"\n3. Click button: \"OK\"\n4. Try click: \"OK\"\n5. Click button: \"Cancel\"\n6. Try click: \"Cancel\"\n7. Click button: \"Yes\"\n8. Try click: \"Yes\"\n9. LOG: [Task 9] Automatically transmit is ON → unchecking.\n10. LOG: [Task 9] Automatically transmit already OFF.\n11. LOG: [Task 9] Automatically transmit is ON → clicking to uncheck.\n12. LOG: [Task 9] Automatically transmit already OFF or not present.\n13. LOG: [Task 9] 'lbl' already blank.\n14. LOG: [Task 9] Setting 'lbl' to blank (0).\n15. Click link: \"Home\"\n16. Try click: \"Home\"\n17. Click link: \"Settings and Actions\"\n18. Try click: \"Settings and Actions\"\n19. Click link: \"Setup and Maintenance\"\n20. Try click: \"Setup and Maintenance\"\n21. Click link: \"Tasks\"\n22. Try click: \"Tasks\"\n23. Click link: \"Search\"\n24. Try click: \"Search\"\n25. Fill field with: \"Manage Payment Process\"\n26. Click link: \"Manage Payment Process\"\n27. Try click: \"Manage Payment Process\"\n28. Click textbox: \"Name\"\n29. Fill field with: \"RCSD\"\n30. Click link: \"RCSD JPMC CC DIRECT DEBIT\"\n31. Try click: \"RCSD JPMC CC DIRECT DEBIT\"\n32. Click link: \"Payment System\"\n33. Try click: \"Payment System\"\n34. Take screenshot\n35. Click link: \"RCSD JPMC CVPAY\"\n36. Try click: \"RCSD JPMC CVPAY\"\n37. Click link: \"Reporting\"\n38. Try click: \"Reporting\"\n39. Take screenshot\n40. Click link: \"RCSD Printed Check\"\n41. Try click: \"RCSD Printed Check\"\n42. Click link: \"Payment System\"\n43. Try click: \"Payment System\"\n44. LOG: [Task 9] Unchecking Automatically transmit for RCSD Printed Check...\n45. Take screenshot\n46. Click button: \"Done\"\n47. Try click: \"Done\"\n48. LOG: [Task 9] Completed — Delivery Method & Payment System set to blank (0), ",
+  "code_steps_raw": [
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "OK"
+    },
+    {
+      "type": "try_click",
+      "target": "OK"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "try_click",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_button",
+      "target": "Yes"
+    },
+    {
+      "type": "try_click",
+      "target": "Yes"
+    },
+    {
+      "type": "log",
+      "action": "[Task 9] Automatically transmit is ON → unchecking."
+    },
+    {
+      "type": "log",
+      "action": "[Task 9] Automatically transmit already OFF."
+    },
+    {
+      "type": "log",
+      "action": "[Task 9] Automatically transmit is ON → clicking to uncheck."
+    },
+    {
+      "type": "log",
+      "action": "[Task 9] Automatically transmit already OFF or not present."
+    },
+    {
+      "type": "log",
+      "action": "[Task 9] 'lbl' already blank."
+    },
+    {
+      "type": "log",
+      "action": "[Task 9] Setting 'lbl' to blank (0)."
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    },
+    {
+      "type": "click_link",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "try_click",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "click_link",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "try_click",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "click_link",
+      "target": "Tasks"
+    },
+    {
+      "type": "try_click",
+      "target": "Tasks"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "fill",
+      "value": "Manage Payment Process"
+    },
+    {
+      "type": "click_link",
+      "target": "Manage Payment Process"
+    },
+    {
+      "type": "try_click",
+      "target": "Manage Payment Process"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Name"
+    },
+    {
+      "type": "fill",
+      "value": "RCSD"
+    },
+    {
+      "type": "click_link",
+      "target": "RCSD JPMC CC DIRECT DEBIT"
+    },
+    {
+      "type": "try_click",
+      "target": "RCSD JPMC CC DIRECT DEBIT"
+    },
+    {
+      "type": "click_link",
+      "target": "Payment System"
+    },
+    {
+      "type": "try_click",
+      "target": "Payment System"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_link",
+      "target": "RCSD JPMC CVPAY"
+    },
+    {
+      "type": "try_click",
+      "target": "RCSD JPMC CVPAY"
+    },
+    {
+      "type": "click_link",
+      "target": "Reporting"
+    },
+    {
+      "type": "try_click",
+      "target": "Reporting"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_link",
+      "target": "RCSD Printed Check"
+    },
+    {
+      "type": "try_click",
+      "target": "RCSD Printed Check"
+    },
+    {
+      "type": "click_link",
+      "target": "Payment System"
+    },
+    {
+      "type": "try_click",
+      "target": "Payment System"
+    },
+    {
+      "type": "log",
+      "action": "[Task 9] Unchecking Automatically transmit for RCSD Printed Check..."
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Done"
+    },
+    {
+      "type": "try_click",
+      "target": "Done"
+    },
+    {
+      "type": "log",
+      "action": "[Task 9] Completed — Delivery Method & Payment System set to blank (0), "
+    }
+  ]
+}

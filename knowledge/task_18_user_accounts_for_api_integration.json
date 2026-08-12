@@ -1,0 +1,12 @@
+{
+  "task_num": 18,
+  "task_name": "User Accounts for API (Integration)",
+  "code_function": "task18_tech_user",
+  "doc_section": "User Accounts for API",
+  "steps": "18. User Accounts for API\nProcedure\nOpen Security Console.\nOpen Users tab.\nClick Add User Account.\nCreate the environment-specific API integration user.\nSet Password to Welcome1.\nAssign the required integration-related roles.\nClick Save and Close.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Save",
+    "Save and Close",
+    "Security Console"
+  ]
+}

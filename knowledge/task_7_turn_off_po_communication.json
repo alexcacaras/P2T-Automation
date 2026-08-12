@@ -1,0 +1,13 @@
+{
+  "task_num": 7,
+  "task_name": "Turn Off PO Communication",
+  "code_function": "task7_turn_off_po_communication",
+  "doc_section": "Turn off PO Communication",
+  "steps": "7. Turn off PO Communication\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Administrator Profile Values.\nSearch for PO_NOTIFICATION_OVERRIDE_E-MAIL.\nSet the profile value to a dummy email address.\nClick Save.\nSearch for PO_CONTROL_SUPPLIER_COMMUNICATION.\nSet the profile value to Disable.\nClick Save.\nSearch for PO_FROM_EMAIL_ADDRESS.\nSet the profile value to Buyer.\nClick Save.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Manage Administrator Profile Values",
+    "Save",
+    "Search",
+    "Setup and Maintenance"
+  ]
+}

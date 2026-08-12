@@ -1,0 +1,109 @@
+# ============================================================
+# Secrets & credentials — NEVER commit these
+# ============================================================
+_env
+.env
+.env.*
+!_env.example
+!.env.example
+crypto_env
+*.key
+*.pem
+credentials.json
+
+# ============================================================
+# Playwright — browser profiles, sessions, recordings (LIVE AUTH — never commit)
+# ============================================================
+.pw-profile/
+.pw-profile-*/
+.pw-user-data/
+.pw-user-data-*/
+playwright-report/
+test-results/
+*.har
+trace.zip
+videos/
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+build/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ============================================================
+# Logs, run artifacts & databases
+# ============================================================
+logs/
+*.log
+ui_automation_logs/
+*.db
+*.sqlite
+*.sqlite3
+job_status_tracker.json
+backfill_*.json
+
+# ============================================================
+# Excel / run outputs
+# ============================================================
+# Excel lock/temp files
+~$*.xlsx
+# generated audit outputs
+job_audit_*.xlsx
+# Client config — contains real usernames, don't commit
+RCSDP2T.xlsx
+RESTAPI_ESS/scenarios/RCSDP2T.xlsx
+# TESTING.xlsx stays tracked (safe test data)
+
+# ============================================================
+# Dashboard (Vite + React)
+# ============================================================
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.local
+
+# ============================================================
+# OS / editor
+# ============================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ============================================================
+# Playwright profiles / caches — LIVE AUTH, NEVER commit (match anywhere)
+# ============================================================
+**/.pw-profile/
+**/.pw-profile-*/
+**/.pw-user-data/
+**/.pw-user-data-*/
+.pw-profile/
+.pw-profile-*/
+.pw-user-data/
+.pw-user-data-*/
+# Runtime / generated files
+logs/
+scenarios/
+screenshots/
+
+# Local Excel data
+data.XLSX
+ESSjobs.xlsx
+branding/

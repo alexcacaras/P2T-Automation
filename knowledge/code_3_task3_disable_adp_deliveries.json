@@ -1,0 +1,112 @@
+{
+  "task_num": 3,
+  "function_name": "task3_disable_adp_deliveries",
+  "total_code_steps": 26,
+  "code_steps_readable": "1. Fill field with: \"end_date\"\n2. LOG: [Task 3] DRY_RUN=True → skipping delete of 'row_text'.\n3. LOG: [Task 3] RETRY: 'row_text' already deleted, skipping\n4. LOG: [Task 3] Looking for row containing: 'row_text'\n5. LOG: [Task 3] Looking for 'row_text' in Additional Details table...\n6. LOG: [Task 3] Found target.count() matching cells...\n7. LOG: [Task 3] Waiting for Oracle to enable Delete button...\n8. Take screenshot\n9. LOG: [Task 3]  Successfully deleted 'row_text'\n10. LOG: [Task 3] Method 1 failed: e\n11. LOG: [Task 3] Trying fallback method...\n12. LOG: [Task 3] (Fallback) Clicked row, waiting for Oracle...\n13. Take screenshot\n14. LOG: [Task 3]  (Fallback) Successfully deleted 'row_text'\n15. LOG: [Task 3] Fallback failed: e\n16. LOG: [Task 3]  WARNING: could not delete row containing 'row_text'.\n17. LOG: [Task 3] Searching for name_text!r\n18. Fill field with: \"name_text\"\n19. Click link: \"Home\"\n20. Try click: \"Home\"\n21. Click link: \"Navigator\"\n22. Try click: \"Navigator\"\n23. Click title/section: \"My Client Groups\"\n24. Try click: \"My Client Groups\"\n25. Take screenshot\n26. LOG: [Task 3] End-dated (and 'deleted' if not DRY_RUN else 'skipped delete in DRY_RUN') ADP deliveries.",
+  "code_steps_raw": [
+    {
+      "type": "fill",
+      "value": "end_date"
+    },
+    {
+      "type": "log",
+      "action": "[Task 3] DRY_RUN=True → skipping delete of 'row_text'."
+    },
+    {
+      "type": "log",
+      "action": "[Task 3] RETRY: 'row_text' already deleted, skipping"
+    },
+    {
+      "type": "log",
+      "action": "[Task 3] Looking for row containing: 'row_text'"
+    },
+    {
+      "type": "log",
+      "action": "[Task 3] Looking for 'row_text' in Additional Details table..."
+    },
+    {
+      "type": "log",
+      "action": "[Task 3] Found target.count() matching cells..."
+    },
+    {
+      "type": "log",
+      "action": "[Task 3] Waiting for Oracle to enable Delete button..."
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "log",
+      "action": "[Task 3]  Successfully deleted 'row_text'"
+    },
+    {
+      "type": "log",
+      "action": "[Task 3] Method 1 failed: e"
+    },
+    {
+      "type": "log",
+      "action": "[Task 3] Trying fallback method..."
+    },
+    {
+      "type": "log",
+      "action": "[Task 3] (Fallback) Clicked row, waiting for Oracle..."
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "log",
+      "action": "[Task 3]  (Fallback) Successfully deleted 'row_text'"
+    },
+    {
+      "type": "log",
+      "action": "[Task 3] Fallback failed: e"
+    },
+    {
+      "type": "log",
+      "action": "[Task 3]  WARNING: could not delete row containing 'row_text'."
+    },
+    {
+      "type": "log",
+      "action": "[Task 3] Searching for name_text!r"
+    },
+    {
+      "type": "fill",
+      "value": "name_text"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    },
+    {
+      "type": "click_link",
+      "target": "Navigator"
+    },
+    {
+      "type": "try_click",
+      "target": "Navigator"
+    },
+    {
+      "type": "click_title",
+      "target": "My Client Groups"
+    },
+    {
+      "type": "try_click",
+      "target": "My Client Groups"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "log",
+      "action": "[Task 3] End-dated (and 'deleted' if not DRY_RUN else 'skipped delete in DRY_RUN') ADP deliveries."
+    }
+  ]
+}

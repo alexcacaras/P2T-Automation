@@ -1,0 +1,132 @@
+{
+  "task_num": 11,
+  "function_name": "task11_disable_getthere_configuration",
+  "total_code_steps": 31,
+  "code_steps_readable": "1. Click link: \"Settings and Actions\"\n2. Try click: \"Settings and Actions\"\n3. Click link: \"Setup and Maintenance\"\n4. Try click: \"Setup and Maintenance\"\n5. Click link: \"Tasks\"\n6. Try click: \"Tasks\"\n7. Click link: \"Search\"\n8. Try click: \"Search\"\n9. Fill field with: \"Manage Travel Partner \"\n10. Click button: \"Search\"\n11. Try click: \"Search\"\n12. Click link: \"Manage Travel Partner\"\n13. Try click: \"Manage Travel Partner\"\n14. Click link: \"GetThere\"\n15. Try click: \"GetThere\"\n16. Click textbox: \"Connection User Name\"\n17. Fill field with: \"username\"\n18. Click textbox: \"Connection Password\"\n19. Fill field with: \"password\"\n20. Take screenshot\n21. Click button: \"Save and Close\"\n22. Try click: \"Save and Close\"\n23. Click button: \"OK\"\n24. Try click: \"OK\"\n25. Click button: \"Cancel\"\n26. Try click: \"Cancel\"\n27. Click button: \"Yes\"\n28. Try click: \"Yes\"\n29. Click link: \"Home\"\n30. Try click: \"Home\"\n31. LOG: [Task 11] GetThere configuration updated (username=username!r). DRY_RUN=DRY_RUN",
+  "code_steps_raw": [
+    {
+      "type": "click_link",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "try_click",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "click_link",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "try_click",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "click_link",
+      "target": "Tasks"
+    },
+    {
+      "type": "try_click",
+      "target": "Tasks"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "fill",
+      "value": "Manage Travel Partner "
+    },
+    {
+      "type": "click_button",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "click_link",
+      "target": "Manage Travel Partner"
+    },
+    {
+      "type": "try_click",
+      "target": "Manage Travel Partner"
+    },
+    {
+      "type": "click_link",
+      "target": "GetThere"
+    },
+    {
+      "type": "try_click",
+      "target": "GetThere"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Connection User Name"
+    },
+    {
+      "type": "fill",
+      "value": "username"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Connection Password"
+    },
+    {
+      "type": "fill",
+      "value": "password"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "OK"
+    },
+    {
+      "type": "try_click",
+      "target": "OK"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "try_click",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_button",
+      "target": "Yes"
+    },
+    {
+      "type": "try_click",
+      "target": "Yes"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    },
+    {
+      "type": "log",
+      "action": "[Task 11] GetThere configuration updated (username=username!r). DRY_RUN=DRY_RUN"
+    }
+  ]
+}

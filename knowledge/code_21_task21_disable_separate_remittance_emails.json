@@ -1,0 +1,96 @@
+{
+  "task_num": 21,
+  "function_name": "task21_disable_separate_remittance_emails",
+  "total_code_steps": 22,
+  "code_steps_readable": "1. Click link: \"Settings and Actions\"\n2. Try click: \"Settings and Actions\"\n3. Click link: \"Setup and Maintenance\"\n4. Try click: \"Setup and Maintenance\"\n5. Click link: \"Tasks\"\n6. Try click: \"Tasks\"\n7. Click link: \"Search\"\n8. Try click: \"Search\"\n9. Fill field with: \"Manage Disbursement System Options\"\n10. Click button: \"Search\"\n11. Try click: \"Search\"\n12. Click textbox: \"Separate Remittance Advice from Email\"\n13. Take screenshot\n14. Click button: \"Save and Close\"\n15. Try click: \"Save and Close\"\n16. Click button: \"OK\"\n17. Try click: \"OK\"\n18. Click button: \"Cancel\"\n19. Try click: \"Cancel\"\n20. Click button: \"Yes\"\n21. Try click: \"Yes\"\n22. LOG: [Task 21] Cleared 'Separate Remittance Advice from Email' field. DRY_RUN=DRY_RUN",
+  "code_steps_raw": [
+    {
+      "type": "click_link",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "try_click",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "click_link",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "try_click",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "click_link",
+      "target": "Tasks"
+    },
+    {
+      "type": "try_click",
+      "target": "Tasks"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "fill",
+      "value": "Manage Disbursement System Options"
+    },
+    {
+      "type": "click_button",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Separate Remittance Advice from Email"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "OK"
+    },
+    {
+      "type": "try_click",
+      "target": "OK"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "try_click",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_button",
+      "target": "Yes"
+    },
+    {
+      "type": "try_click",
+      "target": "Yes"
+    },
+    {
+      "type": "log",
+      "action": "[Task 21] Cleared 'Separate Remittance Advice from Email' field. DRY_RUN=DRY_RUN"
+    }
+  ]
+}

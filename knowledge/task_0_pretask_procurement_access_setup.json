@@ -1,0 +1,14 @@
+{
+  "task_num": 0,
+  "task_name": "Pretask - Procurement Access Setup",
+  "code_function": "setup_procurement_access_for_user",
+  "doc_section": "Required Roles and Access",
+  "steps": "0. Required Roles and Access Preparation\nProcedure\nOpen Oracle Fusion homepage.\nLocate the Navigator icon with three horizontal lines in the upper-left corner.\nOpen the Navigator menu.\nExpand the Tools section.\nClick Security Console.\nOpen the Users tab near the upper section of the page.\nUse the search field near the top-center area to locate the target user.\nClick the user row from the search results table.\nClick Edit near the upper-right section of the user details page.\nScroll to the Roles section.\nClick Add Role.\nSearch for the required role name.\nSelect the matching role from the role search results.\nRepeat for all required roles.\nClick Save and Close near the upper-right section of the page.\nLog out and log back in to activate role changes.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Navigator",
+    "Save",
+    "Save and Close",
+    "Search",
+    "Security Console"
+  ]
+}

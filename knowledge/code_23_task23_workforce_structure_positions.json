@@ -1,0 +1,140 @@
+{
+  "task_num": 23,
+  "function_name": "task23_workforce_structure_positions",
+  "total_code_steps": 33,
+  "code_steps_readable": "1. Click button: \"Cancel\"\n2. Try click: \"Cancel\"\n3. Click button: \"OK\"\n4. Try click: \"OK\"\n5. Click link: \"Settings and Actions\"\n6. Try click: \"Settings and Actions\"\n7. Click link: \"Setup and Maintenance\"\n8. Try click: \"Setup and Maintenance\"\n9. Click link: \"Tasks\"\n10. Try click: \"Tasks\"\n11. Click link: \"Search\"\n12. Try click: \"Search\"\n13. Fill field with: \"Manage Extensible \"\n14. Click button: \"Search\"\n15. Try click: \"Search\"\n16. Click link: \"Manage Extensible Flexfields\"\n17. Try click: \"Manage Extensible Flexfields\"\n18. Click textbox: \"Flexfield Code\"\n19. Fill field with: \"PER_POSITIONS_\"\n20. Click button: \"Deploy Offline\"\n21. Try click: \"Deploy Offline\"\n22. Click button: \"Deploy Offline\"\n23. Try click: \"Deploy Offline\"\n24. Try click: \"Position EIT Information\"\n25. Try click: \"Actions\"\n26. Click link: \"Actions\"\n27. Try click: \"Actions\"\n28. Take screenshot\n29. Click button: \"Done\"\n30. Try click: \"Done\"\n31. Click link: \"Home\"\n32. Try click: \"Home\"\n33. LOG: [Task 23] Position EIT + Legislative: Deploy + Refresh&Deploy done. DRY_RUN=DRY_RUN",
+  "code_steps_raw": [
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "try_click",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_button",
+      "target": "OK"
+    },
+    {
+      "type": "try_click",
+      "target": "OK"
+    },
+    {
+      "type": "click_link",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "try_click",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "click_link",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "try_click",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "click_link",
+      "target": "Tasks"
+    },
+    {
+      "type": "try_click",
+      "target": "Tasks"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "fill",
+      "value": "Manage Extensible "
+    },
+    {
+      "type": "click_button",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "click_link",
+      "target": "Manage Extensible Flexfields"
+    },
+    {
+      "type": "try_click",
+      "target": "Manage Extensible Flexfields"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Flexfield Code"
+    },
+    {
+      "type": "fill",
+      "value": "PER_POSITIONS_"
+    },
+    {
+      "type": "click_button",
+      "target": "Deploy Offline"
+    },
+    {
+      "type": "try_click",
+      "target": "Deploy Offline"
+    },
+    {
+      "type": "click_button",
+      "target": "Deploy Offline"
+    },
+    {
+      "type": "try_click",
+      "target": "Deploy Offline"
+    },
+    {
+      "type": "try_click",
+      "target": "Position EIT Information"
+    },
+    {
+      "type": "try_click",
+      "target": "Actions"
+    },
+    {
+      "type": "click_link",
+      "target": "Actions"
+    },
+    {
+      "type": "try_click",
+      "target": "Actions"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Done"
+    },
+    {
+      "type": "try_click",
+      "target": "Done"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    },
+    {
+      "type": "log",
+      "action": "[Task 23] Position EIT + Legislative: Deploy + Refresh&Deploy done. DRY_RUN=DRY_RUN"
+    }
+  ]
+}

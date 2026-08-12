@@ -1,0 +1,13 @@
+{
+  "task_num": 11,
+  "task_name": "Disable GetThere Configuration",
+  "code_function": "task11_disable_getthere",
+  "doc_section": "Disable GetThere Configuration",
+  "steps": "11. Disable GetThere Configuration\nProcedure\nNavigate to Setup and Maintenance.\nSearch for Manage Travel Partner Integrations.\nOpen GetThere configuration.\nLocate the Username field in the middle section of the configuration page.\nEnter a random value.\nLocate the Connection Password field below the Username field.\nEnter a random value.\nClick Save and Close near the upper-right section.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Save",
+    "Save and Close",
+    "Search",
+    "Setup and Maintenance"
+  ]
+}

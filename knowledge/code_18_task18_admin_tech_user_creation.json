@@ -1,0 +1,156 @@
+{
+  "task_num": 18,
+  "function_name": "task18_admin_tech_user_creation",
+  "total_code_steps": 37,
+  "code_steps_readable": "1. LOG: [Task 18] Creating admin tech user 'username' (DRY_RUN=DRY_RUN)\n2. Click link: \"Navigator\"\n3. Try click: \"Navigator\"\n4. Click link: \"Security Console\"\n5. Try click: \"Security Console\"\n6. Click title/section: \"Tools\"\n7. Try click: \"Tools\"\n8. Click link: \"Security Console\"\n9. Click button: \"Add User Account\"\n10. Try click: \"Add User Account\"\n11. Click textbox: \"First Name\"\n12. Fill field with: \"username\"\n13. Click textbox: \"Last Name\"\n14. Fill field with: \"username\"\n15. Click textbox: \"User Name\"\n16. Fill field with: \"username\"\n17. Click textbox: \"Password\"\n18. Fill field with: \"username\"\n19. Click textbox: \"Confirm Password\"\n20. Fill field with: \"username\"\n21. Take screenshot\n22. LOG:    [Task 18] Adding role: role_name\n23. Click button: \"Add Role\"\n24. Try click: \"Add Role\"\n25. Fill field with: \"role_name\"\n26. Click link: \"Search\"\n27. Click button: \"Add Role Membership\"\n28. Try click: \"Add Role Membership\"\n29. Take screenshot\n30. Click button: \"Done\"\n31. Try click: \"Done\"\n32. LOG: [Task 18] Saving user username\n33. Click button: \"Save and Close\"\n34. LOG: [Task 18] DRY_RUN=True → cancelling instead of saving user username\n35. Click button: \"Cancel\"\n36. Click link: \"Home\"\n37. LOG: [Task 18] Admin tech user 'username' complete. DRY_RUN=DRY_RUN",
+  "code_steps_raw": [
+    {
+      "type": "log",
+      "action": "[Task 18] Creating admin tech user 'username' (DRY_RUN=DRY_RUN)"
+    },
+    {
+      "type": "click_link",
+      "target": "Navigator"
+    },
+    {
+      "type": "try_click",
+      "target": "Navigator"
+    },
+    {
+      "type": "click_link",
+      "target": "Security Console"
+    },
+    {
+      "type": "try_click",
+      "target": "Security Console"
+    },
+    {
+      "type": "click_title",
+      "target": "Tools"
+    },
+    {
+      "type": "try_click",
+      "target": "Tools"
+    },
+    {
+      "type": "click_link",
+      "target": "Security Console"
+    },
+    {
+      "type": "click_button",
+      "target": "Add User Account"
+    },
+    {
+      "type": "try_click",
+      "target": "Add User Account"
+    },
+    {
+      "type": "click_textbox",
+      "target": "First Name"
+    },
+    {
+      "type": "fill",
+      "value": "username"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Last Name"
+    },
+    {
+      "type": "fill",
+      "value": "username"
+    },
+    {
+      "type": "click_textbox",
+      "target": "User Name"
+    },
+    {
+      "type": "fill",
+      "value": "username"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Password"
+    },
+    {
+      "type": "fill",
+      "value": "username"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Confirm Password"
+    },
+    {
+      "type": "fill",
+      "value": "username"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "log",
+      "action": "   [Task 18] Adding role: role_name"
+    },
+    {
+      "type": "click_button",
+      "target": "Add Role"
+    },
+    {
+      "type": "try_click",
+      "target": "Add Role"
+    },
+    {
+      "type": "fill",
+      "value": "role_name"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "click_button",
+      "target": "Add Role Membership"
+    },
+    {
+      "type": "try_click",
+      "target": "Add Role Membership"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_button",
+      "target": "Done"
+    },
+    {
+      "type": "try_click",
+      "target": "Done"
+    },
+    {
+      "type": "log",
+      "action": "[Task 18] Saving user username"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "log",
+      "action": "[Task 18] DRY_RUN=True → cancelling instead of saving user username"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "log",
+      "action": "[Task 18] Admin tech user 'username' complete. DRY_RUN=DRY_RUN"
+    }
+  ]
+}

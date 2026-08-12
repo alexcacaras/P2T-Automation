@@ -1,0 +1,92 @@
+{
+  "task_num": 15,
+  "function_name": "task15_update_or_remove_hireright_config",
+  "total_code_steps": 21,
+  "code_steps_readable": "1. Click link: \"Settings and Actions\"\n2. Try click: \"Settings and Actions\"\n3. Click link: \"Setup and Maintenance\"\n4. Try click: \"Setup and Maintenance\"\n5. Click link: \"Tasks\"\n6. Try click: \"Tasks\"\n7. Click link: \"Search\"\n8. Try click: \"Search\"\n9. Fill field with: \"Recruiting Category\"\n10. Click button: \"Search\"\n11. Try click: \"Search\"\n12. Click link: \"Recruiting Category Provisioning and Configuration\"\n13. Try click: \"Recruiting Category Provisioning and Configuration\"\n14. Fill field with: \"value\"\n15. Take screenshot\n16. Click link: \"Assign User Account\"\n17. Try click: \"Assign User Account\"\n18. Click button: \"Save\"\n19. Click button: \"Cancel\"\n20. Click link: \"Home\"\n21. Try click: \"Home\"",
+  "code_steps_raw": [
+    {
+      "type": "click_link",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "try_click",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "click_link",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "try_click",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "click_link",
+      "target": "Tasks"
+    },
+    {
+      "type": "try_click",
+      "target": "Tasks"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "fill",
+      "value": "Recruiting Category"
+    },
+    {
+      "type": "click_button",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "click_link",
+      "target": "Recruiting Category Provisioning and Configuration"
+    },
+    {
+      "type": "try_click",
+      "target": "Recruiting Category Provisioning and Configuration"
+    },
+    {
+      "type": "fill",
+      "value": "value"
+    },
+    {
+      "type": "screenshot",
+      "action": "capture screenshot"
+    },
+    {
+      "type": "click_link",
+      "target": "Assign User Account"
+    },
+    {
+      "type": "try_click",
+      "target": "Assign User Account"
+    },
+    {
+      "type": "click_button",
+      "target": "Save"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    }
+  ]
+}

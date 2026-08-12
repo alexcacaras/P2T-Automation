@@ -1,0 +1,22 @@
+{
+  "task_num": 3,
+  "task_name": "Disable ADP Deliveries",
+  "code_function": "task3_disable_adp_deliveries",
+  "doc_section": "Disable or Update ADP",
+  "steps": "3. Disable or Update ADP Integrations to Point to Test Environment\nProcedure\nOpen Navigator from the upper-left corner.\nExpand My Client Groups.\nClick Data Exchange.\nIn the HCM Extracts section located in the center of the page, click Extract Definitions.\nClick Show Filters near the upper-right section.\nSet Legislative Data Group to US Legislative Data Group.\nSearch for Payslip.\nClick the Payslip extract row from the results table.\nIn the left-side navigation panel, click Deliver.\nLocate ADP_SC_GarnOnly_Payslip in the delivery options table.\nOpen the delivery option.\nSet End Date to 01/01/2001.\nClick OK in the lower-right corner of the popup.\nScroll to the Report Categories section.\nExpand Additional Details.\nSelect ADP_SC_GarnOnly_Payslip.\nClick Delete located above or beside the Additional Details table.\nClick Validate in the upper-right toolbar.\nClick Done near the upper-right area.\nExpected Results\nTask completes successfully without Oracle validation or save errors.",
+  "expected_elements": [
+    "Additional Details",
+    "Data Exchange",
+    "Deliver",
+    "Done",
+    "Extract Definitions",
+    "My Client Groups",
+    "Navigator",
+    "Report Categories",
+    "Save",
+    "Search",
+    "Show Filters",
+    "Validate",
+    "navigation"
+  ]
+}

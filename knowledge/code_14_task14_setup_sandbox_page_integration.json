@@ -1,0 +1,172 @@
+{
+  "task_num": 14,
+  "function_name": "task14_setup_sandbox_page_integration",
+  "total_code_steps": 41,
+  "code_steps_readable": "1. Click link: \"Home\"\n2. Try click: \"Home\"\n3. Click link: \"Navigator\"\n4. Try click: \"Navigator\"\n5. Click link: \"Sandboxes\"\n6. Try click: \"Sandboxes\"\n7. Click button: \"Create Sandbox\"\n8. Try click: \"Create Sandbox\"\n9. Click textbox: \"Name\"\n10. Fill field with: \"sandbox_name\"\n11. Click button: \"Create and Enter\"\n12. Try click: \"Create and Enter\"\n13. Navigate to page URL\n14. Try click: \"Tools\"\n15. Click link: \"CIF\"\n16. Try click: \"CIF\"\n17. Click textbox: \"Web Page\"\n18. Fill field with: \"new_cif\"\n19. Click button: \"Save and Close\"\n20. Try click: \"Save and Close\"\n21. Click button: \"Cancel\"\n22. Try click: \"Cancel\"\n23. Click link: \"PLE\"\n24. Try click: \"PLE\"\n25. Click textbox: \"Web Page\"\n26. Fill field with: \"new_ple\"\n27. Click button: \"Save and Close\"\n28. Try click: \"Save and Close\"\n29. Click button: \"Cancel\"\n30. Try click: \"Cancel\"\n31. Click button: \"Yes\"\n32. Try click: \"Yes\"\n33. Click button: \"Publish\"\n34. Try click: \"Publish\"\n35. Click button: \"Yes\"\n36. Try click: \"Yes\"\n37. Click button: \"Yes\"\n38. Try click: \"Yes\"\n39. Click link: \"Home\"\n40. Try click: \"Home\"\n41. LOG: [Task 14] Sandbox 'sandbox_name' CIF/PLE set (CIF=new_cif, PLE=new_ple). DRY_RUN=DRY_RUN",
+  "code_steps_raw": [
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    },
+    {
+      "type": "click_link",
+      "target": "Navigator"
+    },
+    {
+      "type": "try_click",
+      "target": "Navigator"
+    },
+    {
+      "type": "click_link",
+      "target": "Sandboxes"
+    },
+    {
+      "type": "try_click",
+      "target": "Sandboxes"
+    },
+    {
+      "type": "click_button",
+      "target": "Create Sandbox"
+    },
+    {
+      "type": "try_click",
+      "target": "Create Sandbox"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Name"
+    },
+    {
+      "type": "fill",
+      "value": "sandbox_name"
+    },
+    {
+      "type": "click_button",
+      "target": "Create and Enter"
+    },
+    {
+      "type": "try_click",
+      "target": "Create and Enter"
+    },
+    {
+      "type": "navigate",
+      "action": "go to URL"
+    },
+    {
+      "type": "try_click",
+      "target": "Tools"
+    },
+    {
+      "type": "click_link",
+      "target": "CIF"
+    },
+    {
+      "type": "try_click",
+      "target": "CIF"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Web Page"
+    },
+    {
+      "type": "fill",
+      "value": "new_cif"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "try_click",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_link",
+      "target": "PLE"
+    },
+    {
+      "type": "try_click",
+      "target": "PLE"
+    },
+    {
+      "type": "click_textbox",
+      "target": "Web Page"
+    },
+    {
+      "type": "fill",
+      "value": "new_ple"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "try_click",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_button",
+      "target": "Yes"
+    },
+    {
+      "type": "try_click",
+      "target": "Yes"
+    },
+    {
+      "type": "click_button",
+      "target": "Publish"
+    },
+    {
+      "type": "try_click",
+      "target": "Publish"
+    },
+    {
+      "type": "click_button",
+      "target": "Yes"
+    },
+    {
+      "type": "try_click",
+      "target": "Yes"
+    },
+    {
+      "type": "click_button",
+      "target": "Yes"
+    },
+    {
+      "type": "try_click",
+      "target": "Yes"
+    },
+    {
+      "type": "click_link",
+      "target": "Home"
+    },
+    {
+      "type": "try_click",
+      "target": "Home"
+    },
+    {
+      "type": "log",
+      "action": "[Task 14] Sandbox 'sandbox_name' CIF/PLE set (CIF=new_cif, PLE=new_ple). DRY_RUN=DRY_RUN"
+    }
+  ]
+}

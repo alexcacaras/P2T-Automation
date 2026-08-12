@@ -1,0 +1,260 @@
+{
+  "task_num": 0,
+  "function_name": "setup_procurement_access_for_user",
+  "total_code_steps": 63,
+  "code_steps_readable": "1. Fill field with: \"text\"\n2. Click link: \"Navigator\"\n3. Try click: \"Navigator\"\n4. Click title/section: \"Tools\"\n5. Try click: \"Tools\"\n6. Click link: \"Security Console\"\n7. Try click: \"Security Console\"\n8. Click title/section: \"Users\"\n9. Try click: \"Users\"\n10. Click button: \"Edit\"\n11. Try click: \"Edit\"\n12. Click button: \"Add Role\"\n13. Try click: \"Add Role\"\n14. Click link: \"Search\"\n15. Click button: \"Add Role Membership\"\n16. Try click: \"Add Role Membership\"\n17. Click button: \"Cancel\"\n18. Click button: \"Done\"\n19. Try click: \"Done\"\n20. Click button: \"Save and Close\"\n21. Try click: \"Save and Close\"\n22. Click button: \"Done\"\n23. Try click: \"Done\"\n24. Click link: \"Settings and Actions\"\n25. Try click: \"Settings and Actions\"\n26. Click link: \"Setup and Maintenance\"\n27. Try click: \"Setup and Maintenance\"\n28. Click link: \"Tasks\"\n29. Try click: \"Tasks\"\n30. Click link: \"Search\"\n31. Try click: \"Search\"\n32. Fill field with: \"Manage Proc\"\n33. Click button: \"Search\"\n34. Try click: \"Search\"\n35. Click link: \"Manage Procurement Agents\"\n36. Try click: \"Manage Procurement Agents\"\n37. Click button: \"Create\"\n38. Try click: \"Create\"\n39. Fill field with: \"RCSD B\"\n40. Fill field with: \"Jangala, Saikrishn\"\n41. Click button: \"Save and Close\"\n42. Try click: \"Save and Close\"\n43. Click button: \"Done\"\n44. Try click: \"Done\"\n45. Fill field with: \"Manage Data\"\n46. Click button: \"Search\"\n47. Try click: \"Search\"\n48. Click link: \"Manage Data Access for Users\"\n49. Try click: \"Manage Data Access for Users\"\n50. Click button: \"Create\"\n51. Try click: \"Create\"\n52. Fill field with: \"user_search_text\"\n53. Fill field with: \"Proc\"\n54. Click title/section: \"Search: Security Context Value\"\n55. Click button: \"Save and Close\"\n56. Try click: \"Save and Close\"\n57. Click button: \"Create\"\n58. Try click: \"Create\"\n59. Click title/section: \"Search: Security Context Value\"\n60. Click button: \"Save and Close\"\n61. Try click: \"Save and Close\"\n62. Click button: \"Done\"\n63. Try click: \"Done\"",
+  "code_steps_raw": [
+    {
+      "type": "fill",
+      "value": "text"
+    },
+    {
+      "type": "click_link",
+      "target": "Navigator"
+    },
+    {
+      "type": "try_click",
+      "target": "Navigator"
+    },
+    {
+      "type": "click_title",
+      "target": "Tools"
+    },
+    {
+      "type": "try_click",
+      "target": "Tools"
+    },
+    {
+      "type": "click_link",
+      "target": "Security Console"
+    },
+    {
+      "type": "try_click",
+      "target": "Security Console"
+    },
+    {
+      "type": "click_title",
+      "target": "Users"
+    },
+    {
+      "type": "try_click",
+      "target": "Users"
+    },
+    {
+      "type": "click_button",
+      "target": "Edit"
+    },
+    {
+      "type": "try_click",
+      "target": "Edit"
+    },
+    {
+      "type": "click_button",
+      "target": "Add Role"
+    },
+    {
+      "type": "try_click",
+      "target": "Add Role"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "click_button",
+      "target": "Add Role Membership"
+    },
+    {
+      "type": "try_click",
+      "target": "Add Role Membership"
+    },
+    {
+      "type": "click_button",
+      "target": "Cancel"
+    },
+    {
+      "type": "click_button",
+      "target": "Done"
+    },
+    {
+      "type": "try_click",
+      "target": "Done"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "Done"
+    },
+    {
+      "type": "try_click",
+      "target": "Done"
+    },
+    {
+      "type": "click_link",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "try_click",
+      "target": "Settings and Actions"
+    },
+    {
+      "type": "click_link",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "try_click",
+      "target": "Setup and Maintenance"
+    },
+    {
+      "type": "click_link",
+      "target": "Tasks"
+    },
+    {
+      "type": "try_click",
+      "target": "Tasks"
+    },
+    {
+      "type": "click_link",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "fill",
+      "value": "Manage Proc"
+    },
+    {
+      "type": "click_button",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "click_link",
+      "target": "Manage Procurement Agents"
+    },
+    {
+      "type": "try_click",
+      "target": "Manage Procurement Agents"
+    },
+    {
+      "type": "click_button",
+      "target": "Create"
+    },
+    {
+      "type": "try_click",
+      "target": "Create"
+    },
+    {
+      "type": "fill",
+      "value": "RCSD B"
+    },
+    {
+      "type": "fill",
+      "value": "Jangala, Saikrishn"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "Done"
+    },
+    {
+      "type": "try_click",
+      "target": "Done"
+    },
+    {
+      "type": "fill",
+      "value": "Manage Data"
+    },
+    {
+      "type": "click_button",
+      "target": "Search"
+    },
+    {
+      "type": "try_click",
+      "target": "Search"
+    },
+    {
+      "type": "click_link",
+      "target": "Manage Data Access for Users"
+    },
+    {
+      "type": "try_click",
+      "target": "Manage Data Access for Users"
+    },
+    {
+      "type": "click_button",
+      "target": "Create"
+    },
+    {
+      "type": "try_click",
+      "target": "Create"
+    },
+    {
+      "type": "fill",
+      "value": "user_search_text"
+    },
+    {
+      "type": "fill",
+      "value": "Proc"
+    },
+    {
+      "type": "click_title",
+      "target": "Search: Security Context Value"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "Create"
+    },
+    {
+      "type": "try_click",
+      "target": "Create"
+    },
+    {
+      "type": "click_title",
+      "target": "Search: Security Context Value"
+    },
+    {
+      "type": "click_button",
+      "target": "Save and Close"
+    },
+    {
+      "type": "try_click",
+      "target": "Save and Close"
+    },
+    {
+      "type": "click_button",
+      "target": "Done"
+    },
+    {
+      "type": "try_click",
+      "target": "Done"
+    }
+  ]
+}
